@@ -1,0 +1,55 @@
+.kartu {
+  background-color: #ffffff !important;
+  min-height: 25rem !important;
+  margin-bottom: 2rem !important;
+  /* box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important; */
+}
+.kartu:hover {
+  box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important;
+}
+.kartu2 {
+  background-color: #ffffff !important;
+  min-height: 17rem !important;
+  /* box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important; */
+}
+.kartu2:hover {
+  box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important;
+}
+.kartu3 {
+  background-color: #ffffff !important;
+  min-height: 25rem !important;
+  background-image: url(../Image/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important; */
+}
+.kartu4 {
+  background-image: url(../Image/saran.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 60%;
+  background-position: center;
+  /* box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important; */
+}
+.kartu4:hover {
+  box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important;
+  opacity: 100%;
+}
+.kartu3:hover {
+  opacity: 80%;
+  box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important;
+}
+/* .shadow {
+  box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important;
+} */
+.shadow:hover {
+  box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important;
+}
+.borderBottom{
+  border-bottom: 0.2rem solid #686868 !important;
+}
+@media(max-width:620px){
+  .kartu2 img {
+    width: 100%;
+  }
+}

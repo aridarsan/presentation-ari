@@ -1,0 +1,37 @@
+.social-media{
+  opacity: 60%;
+  filter: grayscale(100%);
+}
+.social-media:hover{
+  opacity: 100%;
+  filter: none;
+}
+.toolbar{
+  padding: 1rem;
+  flex-shrink: 0;
+  color: "#333333";
+}
+.toolbar:hover{
+  font-weight: 700;
+  color: rgb(72, 72, 82);
+  text-decoration: none !important;
+}
+.toolbar:focus{
+  font-weight: 700;
+  color: #2a2a2a;
+  text-decoration: none !important;
+}
+.nav-left{
+  color: #3a3a3a !important;
+}
+.nav-left:hover{
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
+.nav-left:visited{
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
+#home{
+  height: 100vh;
+}
