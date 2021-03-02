@@ -33,10 +33,10 @@
 }
 .kartu4:hover {
   box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important;
-  opacity: 100%;
+  /* opacity: 100%; */
 }
 .kartu3:hover {
-  opacity: 80%;
+  /* opacity: 80%; */
   box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important;
 }
 /* .shadow {
