@@ -35,9 +35,9 @@ export default function Footer(props) {
   const { description, title } = props;
 
   return (
-    <footer id="footer" className={classes.footer}>
+    <footer id="footer" className={classes.footer} data-aos="zoom-in">
       <Container maxWidth="lg">
-        <Typography variant="h6" align="center">
+        <Typography variant="h6" align="center" >
           {title}
         </Typography>
         <Typography
@@ -45,6 +45,7 @@ export default function Footer(props) {
           align="center"
           color="textSecondary"
           component="p"
+          
         >
           {description}
         </Typography>

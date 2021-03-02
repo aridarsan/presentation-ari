@@ -55,11 +55,12 @@ export default function SimpulanSaran(props) {
             component="h4"
             variant="h4"
             align="center"
+            data-aos="zoom-in-up"
           >
             <span className="borderBottom">Simpulan</span>
           </Typography>
           {/* <CardActionArea component="a" href="#"> */}
-            <Card className="kartu4">
+            <Card className="kartu4" data-aos="fade-right">
               <div className={classes.cardDetails}>
                 <CardContent>
                   <Paper className={classes.paper} elevation={3}>
@@ -110,6 +111,7 @@ export default function SimpulanSaran(props) {
                 component="h4"
                 variant="h4"
                 align="center"
+                data-aos="zoom-in-up"
               >
                 <span className="borderBottom">Saran</span>
               </Typography>
@@ -121,11 +123,12 @@ export default function SimpulanSaran(props) {
                         style={{ width: "100%", borderRadius: "10px" }}
                         src={data.img}
                         alt="saran"
+                        data-aos="zoom-in-up"
                       />
                     </Grid>
                     <Grid item xs={8} md={9}>
                       {/* <CardActionArea component="a" href="#"> */}
-                        <Card className="shadow">
+                        <Card className="shadow" data-aos="fade-left">
                           <CardContent>
                             {/* <Grid container spacing={2}> */}
                             <Typography variant="subtitle1" paragraph>
@@ -167,6 +170,7 @@ export default function SimpulanSaran(props) {
               component="h4"
               variant="h6"
               align="center"
+              data-aos="zoom-in"
             >
               <span className="borderBottom">
                 Sekian dan Terima Kasih Atas Perhatiannya

@@ -35,11 +35,12 @@ export default function Pendahuluan2(props) {
           component="h4"
           variant="h4"
           align="center"
+          data-aos="zoom-in-up"
         >
           <span className="borderBottom">Rumusan Masalah</span>
         </Typography>
         {/* <CardActionArea component="a" href="#"> */}
-          <Card className="kartu3">
+          <Card className="kartu3" data-aos="fade-right">
             <div className={classes.cardDetails}>
               <CardContent>
                 <Typography
@@ -74,11 +75,12 @@ export default function Pendahuluan2(props) {
                 component="h4"
                 variant="h4"
                 align="center"
+                data-aos="zoom-in-up"
               >
                 <span className="borderBottom">{posts.title}</span>
               </Typography>
               {/* <CardActionArea component="a" href="#"> */}
-                <Card className="shadow">
+                <Card className="shadow" data-aos="fade-left">
                   <CardContent>
                     <Grid container spacing={2}>
                       <Grid item xs={4} md={3} style={{ margin: "auto" }}>

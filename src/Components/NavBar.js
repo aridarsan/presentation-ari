@@ -38,43 +38,43 @@ export default function NavBar(props) {
 
   return (
     <React.Fragment>
-      <AppBar position="fixed" color="#ffffff">
+      <AppBar position="fixed" color="#ffffff" data-aos="zoom-in-down">
         {/* <Toolbar
           component="nav"
           variant="dense"
           className={classes.toolbarSecondary}
           id="navbar"
         > */}
-          <Container maxWidth="lg">
-            <Toolbar
-              component="nav"
-              variant="dense"
-              className={classes.toolbarSecondary}
-              id="navbar"
+        <Container maxWidth="lg">
+          <Toolbar
+            component="nav"
+            variant="dense"
+            className={classes.toolbarSecondary}
+            id="navbar"
+          >
+            <Typography
+              component="subtitle1"
+              variant="body2"
+              className={classes.toolbarTitle}
             >
-              <Typography
-                component="subtitle1"
+              <Link href="#home" noWrap className="nav-left">
+                Skripsi Ari Darsan
+              </Link>
+            </Typography>
+            {sections.map((section) => (
+              <Link
+                color="inherit"
+                noWrap
+                key={section.title}
                 variant="body2"
-                className={classes.toolbarTitle}
+                href={section.url}
+                className="toolbar"
               >
-                <Link href="#home" noWrap className="nav-left">
-                  Skripsi Ari Darsan
-                </Link>
-              </Typography>
-              {sections.map((section) => (
-                <Link
-                  color="inherit"
-                  noWrap
-                  key={section.title}
-                  variant="body2"
-                  href={section.url}
-                  className="toolbar"
-                >
-                  {section.title}
-                </Link>
-              ))}
-            </Toolbar>
-          </Container>
+                {section.title}
+              </Link>
+            ))}
+          </Toolbar>
+        </Container>
         {/* </Toolbar> */}
       </AppBar>
     </React.Fragment>

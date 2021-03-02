@@ -5,7 +5,8 @@
   /* box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important; */
 }
 .kartu:hover {
-  box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important;
+  /* box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important; */
+  box-shadow: 0 0 40px rgb(0 0 0 / 10%) !important;
 }
 .kartu2 {
   background-color: #ffffff !important;
@@ -13,7 +14,8 @@
   /* box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important; */
 }
 .kartu2:hover {
-  box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important;
+  /* box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important; */
+  box-shadow: 0 0 40px rgb(0 0 0 / 10%) !important;
 }
 .kartu3 {
   background-color: #ffffff !important;
@@ -32,18 +34,21 @@
   /* box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important; */
 }
 .kartu4:hover {
-  box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important;
+  /* box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important; */
+  box-shadow: 0 0 40px rgb(0 0 0 / 10%) !important;
   /* opacity: 100%; */
 }
 .kartu3:hover {
   /* opacity: 80%; */
-  box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important;
+  /* box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important; */
+  box-shadow: 0 0 40px rgb(0 0 0 / 10%) !important;
 }
 /* .shadow {
   box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important;
 } */
 .shadow:hover {
-  box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important;
+  /* box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important; */
+  box-shadow: 0 0 40px rgb(0 0 0 / 10%) !important;
 }
 .borderBottom{
   border-bottom: 0.2rem solid #686868 !important;

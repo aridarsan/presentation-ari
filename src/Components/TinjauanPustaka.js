@@ -25,13 +25,14 @@ export default function TinjauanPustaka() {
           component="h4"
           variant="h4"
           align="center"
+          data-aos="zoom-in-up"
         >
           <span className="borderBottom">Kerangka Teori</span>
         </Typography>
       </Grid>
 
       <Grid container xs={12} sm={12} lg={12}>
-        <Card className="kartu">
+        <Card className="kartu" data-aos="fade-down">
           <CardContent>
             <img
               className={classes.image}

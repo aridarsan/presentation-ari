@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
   },
   mainFeaturedPostContent: {
     position: "relative",
-    marginTop: "20%",
+    marginTop: "25%",
     marginBottom: theme.spacing(2),
     padding: theme.spacing(4, 0),
     // [theme.breakpoints.up("md")]: {
@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
     // },
   },
   img: {
-    width: "100%",
+    width: "110%",
   },
 }));
 
@@ -54,26 +54,28 @@ export default function LandingPage(props) {
             variant="subtitle1"
             color="inherit"
             gutterBottom
+            style={{paddingBottom : "1rem"}}
+            data-aos="fade-right"
           >
             Salah satu syarat untuk mendapatkan gelar sarjana
           </Typography>
-          <Typography component="h3" variant="h3" color="inherit" gutterBottom>
+          <Typography data-aos="fade-right" component="h3" variant="h3" color="inherit" gutterBottom style={{padding : "1rem 0"}}>
             {post.title}
           </Typography>
-          <Typography variant="h6" color="inherit" paragraph>
+          <Typography data-aos="fade-right" variant="h6" color="inherit" paragraph style={{paddingBottom : "1rem"}}>
             {post.description}
           </Typography>
-          <Link variant="subtitle1" href="#pendahuluan">
-            <Button variant="contained" color="primary" size="large">
+          <Link variant="subtitle1" href="#pendahuluan" style={{padding : "1rem 0"}} >
+            <Button data-aos="fade-up" variant="contained" color="primary" size="large" gutterBottom>
               {post.linkText}
             </Button>
           </Link>
           <div style={{ paddingTop: "2rem", display: "flex" }}>
-            <Typography component="h3" variant="subtitle1" color="inherit">
+            <Typography data-aos="fade-up" component="h3" variant="subtitle1" color="inherit">
               Kontak Saya :
             </Typography>
           </div>
-          <div style={{ paddingTop: "1rem", display: "flex" }}>
+          <div data-aos="fade-up" style={{ paddingTop: "1rem", display: "flex" }}>
             <Link
               href="https://www.facebook.com/darsan.ari"
               className="social-media"
@@ -122,7 +124,7 @@ export default function LandingPage(props) {
         </div>
       </Grid>
       <Hidden smDown>
-        <Grid item md={6} xs={0}>
+        <Grid item md={6} xs={0} data-aos="fade-left">
           <div className={classes.mainFeaturedPostContent}>
             {<img className={classes.img} src={image} alt={post.imageText} />}
           </div>

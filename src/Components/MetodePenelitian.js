@@ -112,10 +112,11 @@ export default function Metode() {
               component="h4"
               variant="h4"
               align="center"
+              data-aos="zoom-in-up"
             >
               <span className="borderBottom">Kerangka Konsep</span>
             </Typography>
-            <Card className="shadow">
+            <Card className="shadow" data-aos="fade-left">
               <CardContent>
                 <img
                   className={classes.img}
@@ -144,10 +145,11 @@ export default function Metode() {
               component="h4"
               variant="h4"
               align="center"
+              data-aos="zoom-in-up"
             >
               <span className="borderBottom">Hipotesis</span>
             </Typography>
-            <Card className="shadow">
+            <Card className="shadow" data-aos="fade-right">
               <CardContent>
                 {
                   <img
@@ -184,12 +186,13 @@ export default function Metode() {
             component="h4"
             variant="h4"
             align="center"
+            data-aos="zoom-in-up"
           >
             <span className="borderBottom">Definisi Operasional</span>
           </Typography>
         </Grid>
-        <Grid xs={12} md={12}>
-          <Typography component="h2" variant="h5">
+        <Grid xs={12} md={12} >
+          <Typography component="h2" variant="h5" data-aos="fade-up">
             1. Variabel Bebas
           </Typography>
           <img
@@ -197,11 +200,12 @@ export default function Metode() {
             style={{ width: "100%", borderRadius: "10px" }}
             src={varBebas}
             alt="variabel bebas"
+            data-aos="fade-down"
           />
         </Grid>
 
         <Grid xs={12} md={12}>
-          <Typography component="h2" variant="h5">
+          <Typography component="h2" variant="h5" data-aos="fade-up">
             2. Variabel Terikat
           </Typography>
           <img
@@ -209,6 +213,7 @@ export default function Metode() {
             style={{ width: "100%", borderRadius: "10px" }}
             src={varIkat}
             alt="variabel terikat"
+            data-aos="fade-down"
           />
         </Grid>
       </Grid>
@@ -219,6 +224,7 @@ export default function Metode() {
           component="h4"
           variant="h4"
           align="center"
+          data-aos="zoom-in-up"
         >
           <span className="borderBottom">Metode Penelitian</span>
         </Typography>
@@ -226,7 +232,7 @@ export default function Metode() {
       <Grid container spacing={4}>
         {metode.map((metod) => (
           <Grid item xs={6} md={6} lg={3}>
-            <Card className="shadow" style={{ minHeight: "16rem" }}>
+            <Card className="shadow" style={{ minHeight: "16rem" }} data-aos="fade-right">
               <Typography
                 style={{
                   padding: "0.5rem",
@@ -259,11 +265,12 @@ export default function Metode() {
               component="h4"
               variant="h4"
               align="center"
+              data-aos="zoom-in-up"
             >
               <span className="borderBottom">Prosedur Penelitian</span>
             </Typography>
-            <Timeline align="alternate">
-              <TimelineItem>
+            <Timeline align="alternate" className="shadow" style={{borderRadius: "10px"}}>
+              <TimelineItem data-aos="fade-left">
                 <TimelineOppositeContent>
                   <Typography variant="subtitle1" color="textSecondary">
                     Pertama
@@ -290,7 +297,7 @@ export default function Metode() {
                   </Paper>
                 </TimelineContent>
               </TimelineItem>
-              <TimelineItem>
+              <TimelineItem data-aos="fade-right">
                 <TimelineOppositeContent>
                   <Typography variant="subtitle1" color="textSecondary">
                     Kedua
@@ -316,7 +323,7 @@ export default function Metode() {
                   </Paper>
                 </TimelineContent>
               </TimelineItem>
-              <TimelineItem>
+              <TimelineItem data-aos="fade-left">
                 <TimelineOppositeContent>
                   <Typography variant="subtitle1" color="textSecondary">
                     Ketiga
@@ -357,15 +364,16 @@ export default function Metode() {
               component="h4"
               variant="h4"
               align="center"
+              data-aos="zoom-in-up"
             >
               <span className="borderBottom">Pengolahan Data</span>
             </Typography>
-            <Typography align="center">
+            <Typography align="center" data-aos="fade-down">
               Data yang didapatkan dari responden melalui kuesioner online,
               selanjutnya melalui tahapan pengolahan sebagai berikut
             </Typography>
-            <Timeline align="alternate">
-              <TimelineItem>
+            <Timeline align="alternate" className="shadow" style={{borderRadius: "10px"}}>
+              <TimelineItem data-aos="fade-left">
                 <TimelineSeparator>
                   <TimelineDot color="primary" />
                   <TimelineConnector className={classes.primaryTail} />
@@ -376,7 +384,7 @@ export default function Metode() {
                   </Typography>
                 </TimelineContent>
               </TimelineItem>
-              <TimelineItem>
+              <TimelineItem data-aos="fade-right">
                 <TimelineSeparator>
                   <TimelineDot color="secondary" />
                   <TimelineConnector className={classes.secondaryTail} />
@@ -388,7 +396,7 @@ export default function Metode() {
                   </Typography>
                 </TimelineContent>
               </TimelineItem>
-              <TimelineItem>
+              <TimelineItem data-aos="fade-left">
                 <TimelineSeparator>
                   <TimelineDot color="primary" />
                   <TimelineConnector className={classes.primaryTail} />
@@ -400,7 +408,7 @@ export default function Metode() {
                   </Typography>
                 </TimelineContent>
               </TimelineItem>
-              <TimelineItem>
+              <TimelineItem data-aos="fade-right">
                 <TimelineSeparator>
                   <TimelineDot color="secondary" />
                   <TimelineConnector className={classes.secondaryTail} />
@@ -411,7 +419,7 @@ export default function Metode() {
                   </Typography>
                 </TimelineContent>
               </TimelineItem>
-              <TimelineItem>
+              <TimelineItem data-aos="fade-left">
                 <TimelineSeparator>
                   <TimelineDot color="primary" />
                   <TimelineConnector className={classes.primaryTail} />
@@ -422,7 +430,7 @@ export default function Metode() {
                   </Typography>
                 </TimelineContent>
               </TimelineItem>
-              <TimelineItem>
+              <TimelineItem data-aos="fade-right">
                 <TimelineSeparator>
                   <TimelineDot color="secondary" />
                   <TimelineConnector className={classes.secondaryTail} />
@@ -433,7 +441,7 @@ export default function Metode() {
                   </Typography>
                 </TimelineContent>
               </TimelineItem>
-              <TimelineItem>
+              <TimelineItem data-aos="fade-left">
                 <TimelineSeparator>
                   <TimelineDot color="primary" />
                 </TimelineSeparator>
@@ -455,6 +463,7 @@ export default function Metode() {
               component="h4"
               variant="h4"
               align="center"
+              data-aos="zoom-in-up"
             >
               <span className="borderBottom">Analisis Data</span>
             </Typography>
@@ -462,7 +471,7 @@ export default function Metode() {
           <Grid container spacing={4}>
             {analisis.map((analis) => (
               <Grid item xs={12} md={6} lg={6}>
-                <Card className="shadow" style={{ minHeight: "14rem" }}>
+                <Card className="shadow" style={{ minHeight: "14rem" }} data-aos="fade-right">
                   <CardContent>
                     <Typography
                       style={{

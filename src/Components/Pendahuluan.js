@@ -84,6 +84,7 @@ export default function Pendahuluan() {
             component="h4"
             variant="h4"
             align="center"
+            data-aos="zoom-in-up"
           >
             <span className="borderBottom">Latar Belakang</span>
           </Typography>
@@ -94,7 +95,7 @@ export default function Pendahuluan() {
         {pendahuluan.map((card) => (
           <Grid item xs={6} sm={6} md={3}>
             {/* <CardActionArea component="a" href="#"> */}
-              <Card className="kartu">
+              <Card className="kartu" data-aos="fade-right">
                 <CardContent>
                   <Grid
                     xs={6}
@@ -139,7 +140,7 @@ export default function Pendahuluan() {
         {pendahuluan2.map((card) => (
           <Grid item xs={12} sm={12} md={6} lg={6}>
             {/* <CardActionArea component="a" href="#"> */}
-              <Card className="kartu2">
+              <Card className="kartu2" data-aos="fade-right">
                 <CardContent>
                   <Grid
                     xs={6}

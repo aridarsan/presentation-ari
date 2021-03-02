@@ -74,7 +74,7 @@ const sections = [
 ];
 
 const mainFeaturedPost = {
-  title: "Kesehatan Masyarakat, Promosi Kesehatan Universitas Siliwangi",
+  title: "Kesehatan Masyarakat, Fakultas Ilmu Kesehatan Universitas Siliwangi",
   description:
     "Hubungan Pengetahuan dan Sikap terhadap Perilaku Adaptasi Kebiasaan Baru Masyarakat Kota Tasikmalaya di Masa Pandemi COVID-19 Tahun 2020",
   linkText: "Lihat Skripsi",
@@ -109,23 +109,6 @@ const featuredPosts = [
   },
 ];
 
-// const sidebar = {
-//   title: "About",
-//   description:
-//     "Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.",
-//   archives: [
-//     { title: "March 2020", url: "#" },
-//     { title: "February 2020", url: "#" },
-//     { title: "January 2020", url: "#" },
-//     { title: "November 1999", url: "#" },
-//   ],
-//   social: [
-//     { name: "GitHub", icon: GitHubIcon },
-//     { name: "Twitter", icon: TwitterIcon },
-//     { name: "Facebook", icon: FacebookIcon },
-//   ],
-// };
-
 export default function Home(props) {
   // const classes = useStyles();
 
@@ -146,15 +129,6 @@ export default function Home(props) {
           <Metode />
           <Hasil />
           <SimpulanSaran post={featuredPosts}/>
-          {/* <Grid container spacing={5} className={classes.mainGrid}>
-            <Main title="From the firehose" />
-            <Sidebar
-              title={sidebar.title}
-              description={sidebar.description}
-              archives={sidebar.archives}
-              social={sidebar.social}
-            />
-          </Grid> */}
         </main>
       </Container>
       <Footer

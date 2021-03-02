@@ -31,6 +31,7 @@ export default function Hasil() {
             component="h4"
             variant="h4"
             align="center"
+            data-aos="zoom-in-up"
           >
             <span className="borderBottom">Hasil Penelitian</span>
           </Typography>
@@ -46,6 +47,7 @@ export default function Hasil() {
                   }}
                   component="h2"
                   variant="h5"
+                  data-aos="fade-left"
                 >
                   {data.title}
                 </Typography>{" "}
@@ -56,10 +58,11 @@ export default function Hasil() {
                       className="shadow"
                       style={{ width: "100%", borderRadius: "10px" }}
                       alt="hubungan pengetahuan dengan perilaku"
+                      data-aos="fade-right"
                     />
                   </Grid>
                   <Grid item xs={12} md={3} lg={3}>
-                    <Typography component="h2" variant="h6">
+                    <Typography component="h2" variant="h6" data-aos="fade-left">
                       {data.desc}
                     </Typography>
                   </Grid>
