@@ -27,7 +27,7 @@ export default function Hasil() {
       <Grid container spacing={4} id="hasil">
         <Grid item xs={12}>
           <Typography
-            style={{ margin: "2rem 0", fontWeight: "600" }}
+            style={{ paddingTop: "1rem", margin: "2rem 0", fontWeight: "600" }}
             component="h4"
             variant="h4"
             align="center"

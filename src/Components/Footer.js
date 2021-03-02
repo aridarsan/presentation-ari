@@ -7,7 +7,7 @@ import Link from "@material-ui/core/Link";
 import facebook from "../Image/facebook.svg";
 import linkedin from "../Image/linkedin.svg";
 import instagram from "../Image/instagram.svg";
-import google from "../Image/google.svg";
+import whatsapp from "../Image/whatsapp.svg";
 
 function Copyright() {
   return (
@@ -24,7 +24,7 @@ function Copyright() {
 
 const useStyles = makeStyles((theme) => ({
   footer: {
-    marginTop: theme.spacing(8),
+    marginTop: theme.spacing(2),
     padding: theme.spacing(4, 0),
     backgroundColor: "#ffffff",
   },
@@ -90,7 +90,7 @@ export default function Footer(props) {
           >
             <img
               style={{ width: "2rem", marginRight: "1rem" }}
-              src={google}
+              src={whatsapp}
               alt="google"
             />
           </Link>

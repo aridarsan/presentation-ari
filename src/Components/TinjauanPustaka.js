@@ -21,7 +21,7 @@ export default function TinjauanPustaka() {
     <React.Fragment>
       <Grid item xs={12} padding="1rem">
         <Typography
-          style={{ margin: "2rem 0", fontWeight: "600" }}
+          style={{ paddingTop: "2rem", margin: "2rem 0", fontWeight: "600" }}
           component="h4"
           variant="h4"
           align="center"

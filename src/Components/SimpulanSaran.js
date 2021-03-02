@@ -7,6 +7,7 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Hidden from "@material-ui/core/Hidden";
+import Paper from "@material-ui/core/Paper";
 import DoneOutlineIcon from "@material-ui/icons/DoneOutline";
 import family from "../Image/family.jpg";
 import saran2 from "../Image/saran2.jpg";
@@ -22,6 +23,10 @@ const useStyles = makeStyles({
   cardMedia: {
     width: 200,
   },
+  paper : {
+    padding : "1rem",
+    backgroundColor : "#f6fbff"
+  }
 });
 
 const saran = [
@@ -46,35 +51,40 @@ export default function SimpulanSaran(props) {
       <Grid container spacing={4} id="simpulan">
         <Grid item xs={12} md={6}>
           <Typography
-            style={{ margin: "2rem 0", fontWeight: "600" }}
+            style={{ paddingTop: "1rem", margin: "2rem 0", fontWeight: "600" }}
             component="h4"
             variant="h4"
             align="center"
           >
             <span className="borderBottom">Simpulan</span>
           </Typography>
-          <CardActionArea component="a" href="#">
+          {/* <CardActionArea component="a" href="#"> */}
             <Card className="kartu4">
               <div className={classes.cardDetails}>
                 <CardContent>
-                  <Typography
-                    style={{ fontWeight: "500" }}
-                    component="h2"
-                    variant="h5"
-                  >
-                    1. Terdapat hubungan yang cukup kuat antara pengetahuan
-                    dengan perilaku adaptasi kebiasaan baru masyarakat Kota
-                    Tasikmalaya di masa pandemi COVID-19 Tahun 2020
-                  </Typography>
-                  <Typography
-                    style={{ margin: "10% auto", fontWeight: "500" }}
-                    component="h2"
-                    variant="h5"
-                  >
-                    2. Terdapat hubungan yang cukup kuat antara sikap dengan
-                    perilaku adaptasi kebiasaan baru masyarakat Kota Tasikmalaya
-                    di masa pandemi COVID-19 Tahun 2020
-                  </Typography>
+                  <Paper className={classes.paper}>
+                    <Typography
+                      style={{ fontWeight: "500" }}
+                      component="h2"
+                      variant="h6"
+                    >
+                      1. Terdapat hubungan yang cukup kuat antara pengetahuan
+                      dengan perilaku adaptasi kebiasaan baru masyarakat Kota
+                      Tasikmalaya di masa pandemi COVID-19 Tahun 2020
+                    </Typography>
+                  </Paper>
+                  <br/>
+                  <Paper className={classes.paper}>
+                    <Typography
+                      style={{ fontWeight: "500" }}
+                      component="h2"
+                      variant="h6"
+                    >
+                      2. Terdapat hubungan yang cukup kuat antara sikap dengan
+                      perilaku adaptasi kebiasaan baru masyarakat Kota
+                      Tasikmalaya di masa pandemi COVID-19 Tahun 2020
+                    </Typography>
+                  </Paper>
                 </CardContent>
               </div>
               <Hidden xsDown>
@@ -85,14 +95,18 @@ export default function SimpulanSaran(props) {
                 />
               </Hidden>
             </Card>
-          </CardActionArea>
+          {/* </CardActionArea> */}
         </Grid>
 
         <Grid item spacing={4} xs={12} md={6}>
           <div>
             <div className={classes.cardDetails}>
               <Typography
-                style={{ margin: "2rem 0", fontWeight: "600" }}
+                style={{
+                  paddingTop: "1rem",
+                  margin: "2rem 0",
+                  fontWeight: "600",
+                }}
                 component="h4"
                 variant="h4"
                 align="center"
@@ -110,7 +124,7 @@ export default function SimpulanSaran(props) {
                       />
                     </Grid>
                     <Grid item xs={8} md={9}>
-                      <CardActionArea component="a" href="#">
+                      {/* <CardActionArea component="a" href="#"> */}
                         <Card className="shadow">
                           <CardContent>
                             {/* <Grid container spacing={2}> */}
@@ -131,7 +145,7 @@ export default function SimpulanSaran(props) {
                             </Typography>
                           </CardContent>
                         </Card>
-                      </CardActionArea>
+                      {/* </CardActionArea> */}
                     </Grid>
                   </>
                 ))}

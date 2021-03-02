@@ -27,7 +27,7 @@
   background-image: url(../Image/saran.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 60%;
+  /* opacity: 60%; */
   background-position: center;
   /* box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important; */
 }

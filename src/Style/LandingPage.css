@@ -1,9 +1,9 @@
 .social-media{
-  opacity: 60%;
+  /* opacity: 60%; */
   filter: grayscale(100%);
 }
 .social-media:hover{
-  opacity: 100%;
+  /* opacity: 100%; */
   filter: none;
 }
 .toolbar{
@@ -32,6 +32,6 @@
   font-weight: 700 !important;
   text-decoration: none !important;
 }
-#home{
+/* #home{
   height: 100vh;
-}
+} */

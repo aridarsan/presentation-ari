@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
+// import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import "../Style/Pendahuluan.css";
 import penemuan from "../Image/penemuan.svg";
@@ -79,6 +79,7 @@ export default function Pendahuluan() {
             style={{
               margin: "2rem 0",
               fontWeight: "600",
+              paddingTop: "2rem",
             }}
             component="h4"
             variant="h4"
@@ -92,7 +93,7 @@ export default function Pendahuluan() {
       <Grid container spacing={4} className={classes.card}>
         {pendahuluan.map((card) => (
           <Grid item xs={6} sm={6} md={3}>
-            <CardActionArea component="a" href="#">
+            {/* <CardActionArea component="a" href="#"> */}
               <Card className="kartu">
                 <CardContent>
                   <Grid
@@ -129,7 +130,7 @@ export default function Pendahuluan() {
                   </Typography>
                 </CardContent>
               </Card>
-            </CardActionArea>
+            {/* </CardActionArea> */}
           </Grid>
         ))}
       </Grid>
@@ -137,7 +138,7 @@ export default function Pendahuluan() {
       <Grid container spacing={4}>
         {pendahuluan2.map((card) => (
           <Grid item xs={12} sm={12} md={6} lg={6}>
-            <CardActionArea component="a" href="#">
+            {/* <CardActionArea component="a" href="#"> */}
               <Card className="kartu2">
                 <CardContent>
                   <Grid
@@ -153,7 +154,7 @@ export default function Pendahuluan() {
                   >
                     <img
                       style={{
-                        width: "100%",
+                        width: "80%",
                         alignContent: "center",
                         alignItems: "center",
                       }}
@@ -182,7 +183,7 @@ export default function Pendahuluan() {
                   </Grid>
                 </CardContent>
               </Card>
-            </CardActionArea>
+            {/* </CardActionArea> */}
           </Grid>
         ))}
       </Grid>

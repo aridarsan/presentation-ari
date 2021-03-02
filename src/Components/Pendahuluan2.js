@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
+// import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Hidden from "@material-ui/core/Hidden";
@@ -38,7 +38,7 @@ export default function Pendahuluan2(props) {
         >
           <span className="borderBottom">Rumusan Masalah</span>
         </Typography>
-        <CardActionArea component="a" href="#">
+        {/* <CardActionArea component="a" href="#"> */}
           <Card className="kartu3">
             <div className={classes.cardDetails}>
               <CardContent>
@@ -62,7 +62,7 @@ export default function Pendahuluan2(props) {
               />
             </Hidden>
           </Card>
-        </CardActionArea>
+        {/* </CardActionArea> */}
       </Grid>
 
       <Grid item spacing={4} xs={12} md={7}>
@@ -77,7 +77,7 @@ export default function Pendahuluan2(props) {
               >
                 <span className="borderBottom">{posts.title}</span>
               </Typography>
-              <CardActionArea component="a" href="#">
+              {/* <CardActionArea component="a" href="#"> */}
                 <Card className="shadow">
                   <CardContent>
                     <Grid container spacing={2}>
@@ -110,7 +110,7 @@ export default function Pendahuluan2(props) {
                     </Grid>
                   </CardContent>
                 </Card>
-              </CardActionArea>
+              {/* </CardActionArea> */}
             </div>
             <Hidden xsDown>
               <CardMedia
