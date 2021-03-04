@@ -40,7 +40,7 @@ export default function Pendahuluan2(props) {
           <span className="borderBottom">Rumusan Masalah</span>
         </Typography>
         {/* <CardActionArea component="a" href="#"> */}
-          <Card className="kartu3" data-aos="fade-right">
+          <Card className="kartu3 shadow" data-aos="fade-right">
             <div className={classes.cardDetails}>
               <CardContent>
                 <Typography

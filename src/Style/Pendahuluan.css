@@ -43,17 +43,18 @@
   /* box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important; */
   box-shadow: 0 0 40px rgb(0 0 0 / 10%) !important;
 }
-/* .shadow {
-  box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important;
-} */
-.shadow:hover {
+.shadow {
   /* box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important; */
   box-shadow: 0 0 40px rgb(0 0 0 / 10%) !important;
 }
-.borderBottom{
+.shadow:hover {
+  box-shadow: 0 6px 20px rgb(17 26 104 / 20%) !important;
+  /* box-shadow: 0 0 40px rgb(0 0 0 / 10%) !important; */
+}
+.borderBottom {
   border-bottom: 0.2rem solid #686868 !important;
 }
-@media(max-width:620px){
+@media (max-width: 620px) {
   .kartu2 img {
     width: 100%;
   }

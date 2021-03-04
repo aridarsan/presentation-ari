@@ -60,7 +60,7 @@ export default function SimpulanSaran(props) {
             <span className="borderBottom">Simpulan</span>
           </Typography>
           {/* <CardActionArea component="a" href="#"> */}
-            <Card className="kartu4" data-aos="fade-right">
+            <Card className="kartu4 shadow" data-aos="fade-right">
               <div className={classes.cardDetails}>
                 <CardContent>
                   <Paper className={classes.paper} elevation={3}>
@@ -120,6 +120,7 @@ export default function SimpulanSaran(props) {
                   <>
                     <Grid item xs={4} md={3}>
                       <img
+                      className="shadow"
                         style={{ width: "100%", borderRadius: "10px" }}
                         src={data.img}
                         alt="saran"

@@ -32,7 +32,7 @@ export default function TinjauanPustaka() {
       </Grid>
 
       <Grid container xs={12} sm={12} lg={12}>
-        <Card className="kartu" data-aos="fade-down">
+        <Card className="kartu shadow" data-aos="fade-down">
           <CardContent>
             <img
               className={classes.image}

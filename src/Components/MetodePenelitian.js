@@ -269,7 +269,7 @@ export default function Metode() {
             >
               <span className="borderBottom">Prosedur Penelitian</span>
             </Typography>
-            <Timeline align="alternate" className="shadow" style={{borderRadius: "10px"}}>
+            <Timeline align="alternate" style={{borderRadius: "10px"}}>
               <TimelineItem data-aos="fade-left">
                 <TimelineOppositeContent>
                   <Typography variant="subtitle1" color="textSecondary">
@@ -372,7 +372,7 @@ export default function Metode() {
               Data yang didapatkan dari responden melalui kuesioner online,
               selanjutnya melalui tahapan pengolahan sebagai berikut
             </Typography>
-            <Timeline align="alternate" className="shadow" style={{borderRadius: "10px"}}>
+            <Timeline align="alternate" style={{borderRadius: "10px"}}>
               <TimelineItem data-aos="fade-left">
                 <TimelineSeparator>
                   <TimelineDot color="primary" />

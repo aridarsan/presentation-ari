@@ -17,24 +17,14 @@ const useStyles = makeStyles((theme) => ({
   mainFeaturedPost: {
     color: "333333",
     marginBottom: theme.spacing(2),
-    // height: "90vh",
     marginTop: "20%",
     padding: theme.spacing(4, 0),
-    // [theme.breakpoints.up("md")]: {
-    //   padding: theme.spacing(6),
-    //   paddingRight: 0,
-    //   paddingLeft: theme.spacing(3),
-    // },
   },
   mainFeaturedPostContent: {
     position: "relative",
     marginTop: "25%",
     marginBottom: theme.spacing(2),
     padding: theme.spacing(4, 0),
-    // [theme.breakpoints.up("md")]: {
-    //   padding: theme.spacing(6),
-    //   paddingLeft: 0,
-    // },
   },
   img: {
     width: "110%",
