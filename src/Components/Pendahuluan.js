@@ -95,18 +95,21 @@ export default function Pendahuluan() {
         {pendahuluan.map((card) => (
           <Grid item xs={6} sm={6} md={3}>
             {/* <CardActionArea component="a" href="#"> */}
-              <Card className="kartu shadow" data-aos="fade-right" >
-                <CardContent>
-                  <Grid
-                    xs={6}
-                    sm={6}
-                    md={3}
-                    style={{
-                      alignContent: "center",
-                      alignItems: "center",
-                      margin: "0 30%",
-                    }}
-                  >
+            <Card className="kartu shadow" data-aos="fade-right">
+              <CardContent>
+                <Grid
+                  xs={6}
+                  sm={6}
+                  md={3}
+                  style={{
+                    alignContent: "center",
+                    alignItems: "center",
+                    margin: "0 30%",
+                  }}
+                  container
+                  justify="center"
+                >
+                  <Grid item>
                     <img
                       style={{
                         width: "150%",
@@ -118,19 +121,20 @@ export default function Pendahuluan() {
                       alt="icon"
                     />
                   </Grid>
-                  <Typography
-                    style={{ marginBottom: "1rem", fontWeight: "500" }}
-                    component="h2"
-                    variant="h5"
-                    align="center"
-                  >
-                    {card.title}
-                  </Typography>
-                  <Typography component="h2" variant="subtitle1" align="center">
-                    {card.description}
-                  </Typography>
-                </CardContent>
-              </Card>
+                </Grid>
+                <Typography
+                  style={{ marginBottom: "1rem", fontWeight: "500" }}
+                  component="h2"
+                  variant="h5"
+                  align="center"
+                >
+                  {card.title}
+                </Typography>
+                <Typography component="h2" variant="subtitle1" align="center">
+                  {card.description}
+                </Typography>
+              </CardContent>
+            </Card>
             {/* </CardActionArea> */}
           </Grid>
         ))}
@@ -140,50 +144,46 @@ export default function Pendahuluan() {
         {pendahuluan2.map((card) => (
           <Grid item xs={12} sm={12} md={6} lg={6}>
             {/* <CardActionArea component="a" href="#"> */}
-              <Card className="kartu2 shadow" data-aos="fade-right">
-                <CardContent>
-                  <Grid
-                    xs={6}
-                    sm={16}
-                    md={6}
+            <Card className="kartu2 shadow" data-aos="fade-right">
+              <CardContent>
+                <Grid
+                  xs={6}
+                  sm={16}
+                  md={6}
+                  style={{
+                    alignContent: "center",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    margin: "0 40%",
+                  }}
+                >
+                  <img
                     style={{
+                      width: "80%",
                       alignContent: "center",
                       alignItems: "center",
-                      justifyContent: "center",
-                      margin: "0 40%",
                     }}
+                    src={card.src}
+                    alt="icon"
+                  />
+                </Grid>
+                <Grid>
+                  <Typography
+                    style={{ marginBottom: "1rem", fontWeight: "500" }}
+                    component="h2"
+                    variant="h5"
+                    align="center"
                   >
-                    <img
-                      style={{
-                        width: "80%",
-                        alignContent: "center",
-                        alignItems: "center",
-                      }}
-                      src={card.src}
-                      alt="icon"
-                    />
-                  </Grid>
-                  <Grid>
-                    <Typography
-                      style={{ marginBottom: "1rem", fontWeight: "500" }}
-                      component="h2"
-                      variant="h5"
-                      align="center"
-                    >
-                      {card.title}
-                    </Typography>
-                  </Grid>
-                  <Grid>
-                    <Typography
-                      component="h2"
-                      variant="subtitle1"
-                      align="center"
-                    >
-                      {card.description}
-                    </Typography>
-                  </Grid>
-                </CardContent>
-              </Card>
+                    {card.title}
+                  </Typography>
+                </Grid>
+                <Grid>
+                  <Typography component="h2" variant="subtitle1" align="center">
+                    {card.description}
+                  </Typography>
+                </Grid>
+              </CardContent>
+            </Card>
             {/* </CardActionArea> */}
           </Grid>
         ))}

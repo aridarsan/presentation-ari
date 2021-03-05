@@ -6,6 +6,7 @@ import Grid from "@material-ui/core/Grid";
 import Link from "@material-ui/core/Link";
 import Button from "@material-ui/core/Button";
 import Hidden from "@material-ui/core/Hidden";
+import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import image from "../Image/home.png";
 import facebook from "../Image/facebook.svg";
 import linkedin from "../Image/linkedin.svg";
@@ -56,8 +57,8 @@ export default function LandingPage(props) {
             {post.description}
           </Typography>
           <Link variant="subtitle1" href="#pendahuluan" style={{padding : "1rem 0"}} >
-            <Button data-aos="fade-up" variant="contained" color="primary" size="large" gutterBottom>
-              {post.linkText}
+            <Button data-aos="fade-up" variant="contained" color="primary" endIcon={<NavigateNextIcon fontSize="small" />} size="large" gutterBottom>
+              {post.linkText} 
             </Button>
           </Link>
           <div style={{ paddingTop: "2rem", display: "flex" }}>
