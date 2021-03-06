@@ -164,21 +164,6 @@ export default function SimpulanSaran(props) {
               </Hidden> */}
           </div>
         </Grid>
-        <Grid container>
-          <Grid item xs={12}>
-            <Typography
-              style={{ margin: "2rem 0", fontWeight: "600" }}
-              component="h4"
-              variant="h6"
-              align="center"
-              data-aos="zoom-in"
-            >
-              <span className="borderBottom">
-                Sekian dan Terima Kasih Atas Perhatiannya
-              </span>
-            </Typography>
-          </Grid>
-        </Grid>
       </Grid>
     </React.Fragment>
   );

@@ -68,7 +68,7 @@ export default function Pendahuluan2(props) {
 
       <Grid item spacing={4} xs={12} md={7}>
         {post.map((posts) => (
-          <div>
+          <div key={posts}>
             <div className={classes.cardDetails}>
               <Typography
                 style={{ margin: "2rem 0", fontWeight: "600" }}
@@ -129,5 +129,5 @@ export default function Pendahuluan2(props) {
 }
 
 Pendahuluan2.propTypes = {
-  post: PropTypes.object,
+  post: PropTypes.array,
 };

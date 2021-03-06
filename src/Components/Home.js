@@ -69,6 +69,7 @@ const sections = [
   { title: "Metode Penelitian", url: "#metode" },
   { title: "Hasil", url: "#hasil" },
   { title: "Simpulan & Saran", url: "#simpulan" },
+  { title: "Dokumentasi", url: "#dokumentasi" },
 ];
 
 const mainFeaturedPost = {
