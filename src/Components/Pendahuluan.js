@@ -30,13 +30,13 @@ const pendahuluan = [
     src: penemuan,
     title: "Penemuan COVID-19",
     description:
-      "Pada Bulan Januari 2020, ditemukan Coronavirus jenis baru yang belum pernah diidentifikasi sebelumnya pada manusia yang disebut Severe Acute Respiratory Syndrome Coronavirus 2 (SARSCoV-2)",
+      "Pada 7 Januari 2020, ditemukan Coronavirus jenis baru yang belum pernah diidentifikasi sebelumnya pada manusia yang disebut Severe Acute Respiratory Syndrome Coronavirus 2 (SARSCoV-2)",
   },
   {
     src: penetapan,
     title: "Penetapan Pandemi",
     description:
-      "Tanggal 11 Maret 2020, WHO sudah menetapkan COVID-19 sebagai pandemi dan merupakan KKMD",
+      "Tanggal 11 Maret 2020, WHO menetapkan COVID-19 sebagai pandemi setelah ditetapkan sebagai KKMMD. Pandemi adalah penyakit yang menyerang orang dalam jumlah banyak dan terjadi di berbagai tempat.",
   },
   {
     src: jumlah,
@@ -63,7 +63,7 @@ const pendahuluan2 = [
     src: survey,
     title: "Studi Pendahuluan",
     description:
-      "6 responden yang tidak mengetahui apa itu adaptasi kebiasaan baru, hanya 20 responden yang selalu menggunakan masker jika keluar rumah",
+      "6 responden yang tidak mengetahui apa itu adaptasi kebiasaan baru, hanya 20 responden yang selalu menggunakan masker jika keluar rumah, masih ada 3 responden yang tidak pernah diam di rumah" ,
   },
 ];
 
@@ -118,6 +118,7 @@ export default function Pendahuluan() {
                       }}
                       src={card.src}
                       alt="icon"
+                      className="img-latbel"
                     />
                   </Grid>
                 </Grid>

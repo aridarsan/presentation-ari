@@ -90,7 +90,7 @@ const analisis = [
   {
     title: "Analisis Univariat",
     desc:
-      "Pada umumnya dalam analisis ini hanya mengahasilkan distribusi frekuensi dan persentase dari tiap variabel. Variabel yang dianalisis menggunakan univariat adalah karakteristik responden, pengetahuan, sikap dan perilaku adaptasi kebiasaan baru masyarakat kota Tasikmalaya di masa pandemi COVID-19",
+      "Pada umumnya dalam analisis ini hanya mengahasilkan distribusi frekuensi dan persentase dari tiap variabel. Variabel yang dianalisis menggunakan univariat adalah karakteristik responden, pengetahuan, sikap dan perilaku adaptasi kebiasaan baru masyarakat kota Tasikmalaya di masa pandemi COVID-19 tahun 2020.",
   },
   {
     title: "Analisis Bivariat",
@@ -369,7 +369,7 @@ export default function Metode() {
               <span className="borderBottom">Pengolahan Data</span>
             </Typography>
             <Typography align="center" data-aos="fade-down">
-              Data yang didapatkan dari responden melalui kuesioner online,
+              Data primer yang didapatkan dari responden melalui kuesioner online,
               selanjutnya melalui tahapan pengolahan sebagai berikut
             </Typography>
             <Timeline align="alternate" style={{borderRadius: "10px"}}>
@@ -392,7 +392,7 @@ export default function Metode() {
                 <TimelineContent>
                   {" "}
                   <Typography variant="h6" component="h1">
-                    Koding
+                    Skoring
                   </Typography>
                 </TimelineContent>
               </TimelineItem>
@@ -404,7 +404,7 @@ export default function Metode() {
                 <TimelineContent>
                   {" "}
                   <Typography variant="h6" component="h1">
-                    Skoring
+                  Koding
                   </Typography>
                 </TimelineContent>
               </TimelineItem>

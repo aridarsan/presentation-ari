@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
   },
   toolbarTitle: {
     flex: 1,
-    color: "#333333",
+    color: "#1cbfff",
     backgroundColor: "ffffff",
   },
   toolbarSecondary: {

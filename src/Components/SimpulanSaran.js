@@ -38,7 +38,7 @@ const saran = [
   {
     img: saran2,
     desc:
-      "Melakukan penelitian dengan desain cross sectional untuk mengetahui pengetahuan, sikap dan perilaku adaptasi kebiasaan baru orang yang diketahui terpapar COVID-19 dengan orang yang tidak pernah terpapar COVID-19",
+      "Melakukan penelitian dengan desain case control untuk mengetahui pengetahuan, sikap dan perilaku adaptasi kebiasaan baru orang yang diketahui terpapar COVID-19 dengan orang yang tidak pernah terpapar COVID-19",
   },
 ];
 

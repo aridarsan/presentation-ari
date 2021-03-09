@@ -61,4 +61,18 @@
   #img-carousel{
     width: 60% !important;
   }
+  .img-latbel{
+    width: 100% !important;
+  }
+}
+@media (max-width: 920px) {
+  .kartu2 img {
+    width: 100%;
+  }
+  #img-carousel{
+    width: 60% !important;
+  }
+  .img-latbel{
+    width: 100% !important;
+  }
 }
