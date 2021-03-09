@@ -21,15 +21,10 @@ import wa2 from "../Image/Documentation/wa2.png";
 import wa3 from "../Image/Documentation/wa3.png";
 import wa4 from "../Image/Documentation/wa4.png";
 import wa5 from "../Image/Documentation/wa5.png";
-import poster from "../Image/Documentation/poster.png";
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const tutorialSteps = [
-  {
-    label: "Poster",
-    imgPath: poster,
-  },
   {
     label: "Penyebaran Kuesioner di Instagram 1",
     imgPath: ig1,
