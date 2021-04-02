@@ -33,12 +33,12 @@ const saran = [
   {
     img: family,
     desc:
-      "Melakukan sosialisasi dan edukasi terkait penerapan perilakau adaptasi kebiasaan baru pada seluruh masyarakat Kota Tasikmalaya di semua tempat yang lebih konsisten",
+      "Meningkatkan implementasi penerapan perilaku adaptasi kebiasaan baru di berbagai sektor melalui advokasi dan komunikasi dengan pemegang kebijakan diberbagai tempat sehingga semua pihak dapat mengawasi penerapan perilaku adaptasi kebiasaan baru",
   },
   {
     img: saran2,
     desc:
-      "Melakukan penelitian dengan desain case control untuk mengetahui pengetahuan, sikap dan perilaku adaptasi kebiasaan baru orang yang diketahui terpapar COVID-19 dengan orang yang tidak pernah terpapar COVID-19",
+      "Melakukan penelitian untuk mengetahui perbedaan tingkat pengetahuan, sikap dan perilaku adaptasi kebiasaan baru pada orang yang sudah terpapar COVID19 dan orang yang tidak/ belum pernah terpapar COVID-19. ",
   },
 ];
 
